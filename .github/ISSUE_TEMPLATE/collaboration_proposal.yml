@@ -1,0 +1,43 @@
+name: Collaboration proposal
+description: Propose a collaboration with OpenRewrite
+title: "Proposal to collaborate with <your project>"
+labels: [access]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        At OpenRewrite we invite anyone to [contribute to our projects](https://github.com/openrewrite/.github/blob/main/CONTRIBUTING.md#ways-to-contribute).
+        
+        Collaborations allow us to work closely together with other communities, and provide write access to our repositories to trusted members of those communities.
+        We already collaborate with [many organizations and individuals](https://github.com/orgs/openrewrite/repositories?q=&type=public&language=&sort=stargazers), and we're always looking for new communities to work together.
+        
+        If you would like to propose a collaboration with OpenRewrite, please fill out the following information.
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: What organization are you affiliated with? This helps us understand your relationship to the project. 
+      placeholder: e.g., Acme Corp
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why do you want to collaborate with OpenRewrite?
+      placeholder: e.g., I'd like to allow users of my project to use OpenRewrite to automatically migrate their code to the latest version of my project.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Any additional context you'd like to share?
+      placeholder: e.g., links to relevant issues, pull requests, or discussions
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Next steps
+        Thanks for taking the time to fill out this request. We'll review it and get back to you as soon as possible.

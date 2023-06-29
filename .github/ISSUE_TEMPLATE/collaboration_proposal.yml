@@ -17,7 +17,7 @@ body:
     attributes:
       label: Affiliation
       description: What organization are you affiliated with? This helps us understand your relationship to the project. 
-      placeholder: ex. Acme Corp
+      placeholder: e.g., Acme Corp
     validations:
       required: true
   - type: textarea
@@ -25,7 +25,7 @@ body:
     attributes:
       label: Motivation
       description: Why do you want to collaborate with OpenRewrite?
-      placeholder: ex. I'd like to allow users of my project to use OpenRewrite to automatically migrate their code to the latest version of my project.
+      placeholder: e.g., I'd like to allow users of my project to use OpenRewrite to automatically migrate their code to the latest version of my project.
     validations:
       required: true
   - type: textarea
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Additional context
       description: Any additional context you'd like to share?
-      placeholder: ex. links to relevant issues, pull requests, or discussions
+      placeholder: e.g., links to relevant issues, pull requests, or discussions
     validations:
       required: false
   - type: markdown
